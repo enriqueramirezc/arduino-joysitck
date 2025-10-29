@@ -1,4 +1,3 @@
-// arduino_controller.hh
 #ifndef ARDUINO_CONTROLLER_HH
 #define ARDUINO_CONTROLLER_HH
 

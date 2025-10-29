@@ -1,4 +1,4 @@
-// adaptado de Sleyter Angulo por Enrique Ramírez con ayuda de IA (Claude)
+// Adaptado de Sleyter Angulo por Enrique Ramírez con ayuda de IA (Claude)
 #include "arduino_controller.h"
 #include <fcntl.h>
 #include <unistd.h>

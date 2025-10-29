@@ -2,9 +2,6 @@
 #include <stdio.h>
 #include "Window.h"
 #include "Game.h"
-// #include "Menu.h"
-// #include "Home.h"
-// #include "Settings.h"
 
 int main() {
   // Componentes

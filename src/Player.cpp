@@ -39,8 +39,10 @@ void Player::drawPlayer() {
 }
 
 void Player::movePlayer() {
-  if (IsKeyDown(KEY_DOWN)) movePlayerDown();  // debo comentar cuando pruebe con arduino
-  if (IsKeyDown(KEY_UP)) movePlayerUp();  // debo comentar cuando pruebe con arduino
+  if (IsKeyDown(KEY_DOWN)) movePlayerDown();  // teclas
+  if (IsKeyDown(KEY_UP)) movePlayerUp();  // teclas
+
+  // joystick
   char cmd = arduino.readCommand();
   if (cmd == 'U') movePlayerUp();
   if (cmd == 'D') movePlayerDown();
